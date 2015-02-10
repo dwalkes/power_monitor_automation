@@ -45,7 +45,7 @@ foreach dev $devices {
     if { [string match "*EPM2210*" $dev] } {
         set max_device $dev
     }
-    if { [string match "*EP*CGX*" $dev] } {
+    if { [string match "*EP*GX*" $dev] } {
         set fpga_device $dev
     }
 }
